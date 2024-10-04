@@ -5,7 +5,6 @@ import SideBarNav from '../SideBarNav'
 const SideBar = () => {
   return (
     <div className='sidebar'>
-        <SideBarNav />
     </div>
   )
 }

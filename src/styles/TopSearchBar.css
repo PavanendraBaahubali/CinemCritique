@@ -1,0 +1,20 @@
+.search{
+    height: auto;
+    padding: 15px;
+    padding-left: 30px;
+    background-color: #19181F;
+    border-radius: 40px;
+    color: gray;
+    box-sizing: border-box;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+
+}
+.topsearch input{
+    outline: none;
+}
+.topsearch{
+    width: 50%;
+}

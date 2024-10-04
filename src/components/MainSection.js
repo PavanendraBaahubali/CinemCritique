@@ -1,9 +1,12 @@
 import React from 'react'
 import "../styles/MainSection.css"
+import TopBar from './TopBar'
 
 const MainSection = () => {
   return (
-    <div className='mainsection'>MainSection</div>
+    <div className='mainsection'>
+        <TopBar />
+    </div>
   )
 }
 

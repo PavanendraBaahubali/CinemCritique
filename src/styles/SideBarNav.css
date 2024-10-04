@@ -9,3 +9,6 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
+.sidebarnav li:hover{
+    color: white;
+}
