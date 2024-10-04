@@ -1,0 +1,6 @@
+.mainbody{
+    width: 100%;
+    display: flex;
+    border-radius: 30%;
+    height: 100vh;
+}
