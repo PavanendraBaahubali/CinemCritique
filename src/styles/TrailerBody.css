@@ -2,4 +2,9 @@
     width: 100%;
     flex: 30%;
     background-color: #222128;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.trailer-head h3{
+    color: white;
 }

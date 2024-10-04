@@ -1,9 +1,12 @@
 import "../styles/TrailerBody.css"
 import React from 'react'
+import Trailers from "../components/Trailers"
 
 const TrailerBody = () => {
   return (
-    <div className="trailerbody">TrailerBody</div>
+    <div className="trailerbody">
+        <Trailers />
+    </div>
   )
 }
 
