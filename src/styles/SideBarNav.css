@@ -1,0 +1,11 @@
+.sidebarnav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebarnav li{
+    color: #46494B;
+    list-style-type: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
