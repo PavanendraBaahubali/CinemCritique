@@ -13,6 +13,7 @@ const HomeCategory = () => {
             <CategoryCard />
             <CategoryCard />
             <CategoryCard />
+           
         </div>
         <hr/>
     </div>
