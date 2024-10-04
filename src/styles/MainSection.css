@@ -1,0 +1,7 @@
+.mainsection{
+    width: 100%;
+    height: auto;
+    flex: 80%;
+    background-color: #19181F;
+    border-top-left-radius: 20px;
+}
