@@ -3,4 +3,10 @@
     flex: 80%;
     background-color: #19181F;
     border-top-left-radius: 10px;
+    overflow-y: scroll;
+    scrollbar-color: gray;
+}
+/* Custom Scrollbar Styling */
+.homebody::-webkit-scrollbar {
+    display: none;
 }

@@ -1,0 +1,33 @@
+.homecategory{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+.homecategory hr{
+    width: 100%;
+    color : gray;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head p{
+    font-size: 19px;
+    color: #c1bebe;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.head h5{
+    cursor: pointer;
+    color: gray;
+}
+.cardSection{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
