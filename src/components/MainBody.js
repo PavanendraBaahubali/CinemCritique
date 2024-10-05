@@ -2,12 +2,28 @@ import React from 'react'
 import "../styles/MainBody.css"
 import HomeBody from './HomeBody'
 import TrailerBody from './TrailerBody'
+import { useLocation } from 'react-router-dom'
+import MovieDetailsLayout from '../layouts/MovieDetailsLayout'
 
 const MainBody = () => {
+    const location = useLocation()
+    const isMovieDetails = location.pathname.includes('/movie')
   return (
     <div className='mainbody'>
-        <HomeBody />
-        <TrailerBody />
+        {
+            !isMovieDetails ? 
+            (<>
+            <HomeBody />
+            <TrailerBody /> 
+            </>)
+            :
+            (
+                <>
+                <MovieDetailsLayout />
+                </>
+            )    
+        }
+        
     </div>
   )
 }

@@ -1,0 +1,53 @@
+.movie-info{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    
+}
+.movie-info-left{
+    display: flex;
+    flex: 90%;
+    justify-content: center;
+    .info h1{
+        color: #d7d7d7;
+        margin: 0;
+        letter-spacing: 1px;
+        max-width: 70%;
+    }
+    .info p{
+        color: gray;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        
+    }
+    .info label{
+        color: rgb(96, 91, 91);
+        margin: 0;
+        font-style: italic;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+.watchlist{
+    width: 73px;
+    height: 20px;
+    background-color: rgb(110, 227, 110);
+    border-radius: 5px;
+    padding: 10px;
+    flex: 30% 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.watchlist svg{
+    font-size: 22px;
+    color: #342e2e;
+    cursor: pointer;
+}
+.watchlist p{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(2, 2, 2);
+}
